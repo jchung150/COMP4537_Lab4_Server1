@@ -1,6 +1,6 @@
 class DictionarySearch {
     constructor() {
-        this.apiUrl = 'http://localhost:3000/api/definitions';
+        this.apiUrl = 'https://comp4537-lab4-server2.vercel.app/api/definitions';
         this.init();
     }
 
