@@ -38,7 +38,7 @@ class DictionarySearch {
 
     // Validate input fields
     validateInput(word) {
-        return /^[a-zA-Z]+$/.test(word);
+        return /^[a-zA-Z]+$/.test(word.trim());
     }
 
     // Send GET request to the server

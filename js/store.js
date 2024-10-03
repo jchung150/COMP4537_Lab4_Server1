@@ -36,7 +36,7 @@ class DictionaryStore {
 
     // Validate input fields
     validateInput(word) {
-        return /^[a-zA-Z]+$/.test(word);
+        return /^[a-zA-Z]+$/.test(word.trim());
     }
 
     // Send POST request to the server
