@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Definition</title>
+        <!-- Include the localization file first -->
+        <script src="lang/en/en.js" defer></script>
+        <!-- Then include the search.js file -->
+    <script src="js/search.js" defer></script>
+</head>
+<body>
+    <h1>Search for a Word in the Dictionary</h1>
+    <form id="searchForm">
+        <label for="word">Word:</label>
+        <input type="text" id="word" name="word" required><br><br>
+        <button type="submit">Search</button>
+    </form>
+
+    <p id="result"></p>
+</body>
+</html>
