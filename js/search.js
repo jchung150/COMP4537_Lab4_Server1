@@ -1,6 +1,6 @@
 class DictionarySearch {
     constructor() {
-        this.apiUrl = 'https://comp4537-lab4-server2.vercel.app/api/definitions';
+        this.apiUrl = 'https://comp4537-lab4-server2-liart.vercel.app/api/definitions';
         this.init();
     }
 
